@@ -8,7 +8,7 @@ public class Main {
         dataOut();
     }
     private static void dataOut(){
-        System.out.println("");
+        System.out.println("");//You can use just System.out.println() - it's more than enough
         for (int i = 0; i < array.length; i++){
             if (array[i] < 6){
                 array[i] = array[i] * 2;
